@@ -1,34 +1,36 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [kuzhikal ennu] 🎯
+# [കുഴികൾ എണ്ണുന്ന AI] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Tech Titans]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Chris P D] - [TEC]
+- Member 2: [Anto Punnoose] - [TEC]
 
 ### Project Description
-[2-3 lines about what your project does]
+[A website designed to count the number of potholes in the road using AI]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[There are so many potholes in kerala roads, so to get a approximate number of potholes in the road.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[We train an AI to count the number potholes in a road. we upload a video of the road from start to end and the AI detects the number of potholes. ]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [Python,html,css]
+- [ flask
+    opencv-python]
+- [ ultralytics
+    numpy]
+- [ google colab
+    roboflow]
 
 For Hardware:
 - [List main components]
@@ -38,23 +40,25 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[pip install -r requirements.txt
+ pip install ultralytics roboflow]
 
 # Run
-[commands]
+[python app.py]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](pothole_detector\static\ss1-th.png)
+ website front page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](pothole_detector\static\ss2-th.png)
+detecting potholes
+
+![Screenshot3](pothole_detector\static\ss3-th.png)
+Ouput - number of potholes
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -88,7 +92,7 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
+- []: [Specific contributions]
 - [Name 2]: [Specific contributions]
 - [Name 3]: [Specific contributions]
 
