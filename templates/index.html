@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pothole Detection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+      }
+      h1 {
+        color: #0056b3;
+      }
+      form {
+        margin: 20px 0;
+      }
+      input[type="file"] {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        background-color: #0056b3;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      input[type="submit"]:hover {
+        background-color: #004494;
+      }
+      .result {
+        margin-top: 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pothole Detection in Video</h1>
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/*" required>
+        <input type="submit" value="Upload and Detect">
+      </form>
+      {% if pothole_count is not none %}
+        <div class="result">
+          <p>Total potholes detected: {{ pothole_count }}</p>
+        </div>
+      {% endif %}
+    </div>
+  </body>
+</html>
