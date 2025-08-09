@@ -45,14 +45,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](pothole_detector\static\ss1-th.png)
+![Screenshot1](static\ss1-th.png)
  website front page
 
 
-![Screenshot2](pothole_detector\static\ss2-th.png)
+![Screenshot2](static\ss2-th.png)
 detecting potholes
 
-![Screenshot3](pothole_detector\static\ss3-th.png)
+![Screenshot3](static\ss3-th.png)
 Ouput - number of potholes
 
 # Diagrams
