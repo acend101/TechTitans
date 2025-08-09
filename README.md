@@ -44,7 +44,7 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 ![Screenshot1](/static/ss1-th.png)
  website front page
 
@@ -55,16 +55,6 @@ detecting potholes
 ![Screenshot3](/static/ss3-th.png)
 Ouput - number of potholes
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
 ## Team Contributions
 - [Chris P D]: [Coding]
